@@ -8,8 +8,7 @@ const getFromLocalStorage = () => {
 };
 
 // Saves data/ TODOs in the localStorage
-const saveToLocalStorage = (todos) => {
-  localStorage.setItem('todos', JSON.stringify(todos));
-};
+const saveToLocalStorage = (todos) => localStorage.setItem('todos', JSON.stringify(todos));
+
 
 export { getFromLocalStorage, saveToLocalStorage };
